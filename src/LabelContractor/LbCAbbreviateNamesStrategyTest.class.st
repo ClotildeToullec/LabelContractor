@@ -1,7 +1,7 @@
 Class {
 	#name : #LbCAbbreviateNamesStrategyTest,
 	#superclass : #LbCAbstractStrategyTest,
-	#category : 'LabelContractor-Tests'
+	#category : #LabelContractor
 }
 
 { #category : #creation }

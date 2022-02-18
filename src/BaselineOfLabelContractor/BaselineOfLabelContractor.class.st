@@ -14,15 +14,5 @@ Class {
 BaselineOfLabelContractor >> baseline: spec [
 
 	<baseline>
-	spec for: #common do: [ 
-		spec
-			package: 'LabelContractor';
-			package: 'LabelContractor-Tests'
-			with: [ spec requires: 'LabelContractor' ];
-			package: 'LabelContractor-Scripts'
-			with: [ spec requires: 'LabelContractor' ] ].
-	spec
-		group: 'default'
-		with: #( 'LabelContractor' 'LabelContractor-Tests' );
-		group: 'full' with: #( 'default' 'LabelContractor-Scripts' )
+	spec for: #common do: [ spec package: 'LabelContractor' ]
 ]
