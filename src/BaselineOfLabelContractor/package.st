@@ -1,1 +1,1 @@
-Package { #name : #BaselineOfLabelContractor }
+Package { #name : 'BaselineOfLabelContractor' }
